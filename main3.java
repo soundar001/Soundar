@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class main
+class main3
 {
 public static void main(String[] args)
 {
