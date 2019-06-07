@@ -1,9 +1,9 @@
     
-b=int(input())
-n=b//2
+a=int(input())
+n=a//2
 d=0
 for x in range(2,n+1):
-    if b%x==0:
+    if a%x==0:
         d=1 
 if d==0:
     print('yes')
