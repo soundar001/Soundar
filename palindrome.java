@@ -12,8 +12,8 @@ class Palindrome
    n=n/10;    
   }    
   if(temp==sum)    
-   System.out.println("palindrome number ");    
+   System.out.println(" yes ");    
   else    
-   System.out.println("not palindrome");    
+   System.out.println("no");    
 }  
 }  
