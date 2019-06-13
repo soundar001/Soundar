@@ -1,7 +1,7 @@
-n,k=map(int,input().split())
+N,K=map(int,input().split())
 m=list(map(int,input().split()))
 qt=[]
-for i in range(0,k):
+for i in range(0,K):
     d = []
     d=list(map(int,input().split()))
     s = d[0]
