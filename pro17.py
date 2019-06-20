@@ -1,12 +1,12 @@
-m,s=map(int,input().split())
-array=list(map(int,input().split()))
-r=0
-for i in range(len(array)):
-	for j in range(i+1,len(array)):
-		if (array[i]+array[j]==s):
-			r+=1
+m1,s1=map(int,input().split())
+array1=list(map(int,input().split()))
+r1=0
+for i in range(len(array1)):
+	for j in range(i+1,len(array1)):
+		if (array1[i]+array1[j]==s1):
+			r1+=1
 			break
-if(r):
+if(r1):
 	print("yes")
 else:
 	print("no")
