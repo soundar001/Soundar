@@ -1,5 +1,4 @@
-a=int(input())
-b=int(input())
+a,b=map(int,input().split())
 if(a%2==0):
   for i in range (a,b):
     if(a%2==1):
